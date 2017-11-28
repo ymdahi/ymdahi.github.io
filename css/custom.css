@@ -1,0 +1,61 @@
+
+/**
+ * Typography
+ */
+
+body {
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+a {
+	color: #333;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color: #09f;
+}
+
+
+/**
+ * Layout
+ */
+@media (min-width: 1200px) {
+	.container {
+	  max-width: 720px;
+	}
+}
+
+/** 
+ * Navbar / main nav
+ */
+
+a.navbar-brand {
+	font-family: 'Over the Rainbow', cursive;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+	color: #AAA;
+}
+.navbar-expand-md .navbar-nav .nav-link:hover,.navbar-expand-md .navbar-nav .nav-link:focus {
+	color: #111;
+}
+.navbar-expand-md .navbar-nav .active .nav-link {
+	color: #000;
+}
+
+
+
+
+/**
+ * Feed entries
+ */
+
+.feed-entry h2 {
+	font-size: 1.3em;
+}
+
+span.feed-date {
+	color: #AAA;
+	font-weight: bold;
+}
+
+
